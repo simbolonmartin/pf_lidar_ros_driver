@@ -41,12 +41,12 @@ source /opt/ros/$ROS_DISTRO/setup.bash
 If `catkin_tools` is installed as shown above:
 ```
 catkin build
-source <path/to/workspace>/install/setup.bash
+source <path/to/workspace>/devel/setup.bash
 ```
 Instead, to use `catkin_make`:
 ```
 catkin_make
-source <path/to/workspace>/install/setup.bash
+source <path/to/workspace>/devel/setup.bash
 ```
   
 **Usage:**  
